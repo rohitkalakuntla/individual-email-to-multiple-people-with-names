@@ -1,0 +1,142 @@
+[2025-06-12 15:26:02] Starting email sending process...
+[2025-06-12 15:26:02] Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 15:45:49] ---- Starting the logging for sending the emails ---------
+[2025-06-12 15:45:50] Starting email sending process...
+[2025-06-12 15:45:50] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 15:45:50] Total Number of email recipients in the csv file are 1 emails.
+[2025-06-12 15:45:50] Total Number of email successfully sent are 1 emails.
+[2025-06-12 15:45:50] 📊 Summary: Sent 1 out of 1 emails.
+[2025-06-12 15:45:50] ✅ All emails sent successfully.
+[2025-06-12 15:45:50] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 15:52:20] ---- Starting the logging for sending the emails ---------
+[2025-06-12 15:52:21] Starting multiple email sending process...
+[2025-06-12 15:52:21] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 15:52:21] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 15:52:21] Total Number of email recipients in the csv file are 2 emails.
+[2025-06-12 15:52:21] Total Number of email successfully sent are 2 emails.
+[2025-06-12 15:52:21] 📊 Summary: Sent 2 out of 2 emails.
+[2025-06-12 15:52:21] ✅ All emails sent successfully.
+[2025-06-12 15:52:21] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 16:11:20] ---- Starting the logging for sending the emails ---------
+[2025-06-12 16:11:20] Error reading recipients CSV: 'NoneType' object has no attribute 'strip'
+
+
+[2025-06-12 16:20:01] ---- Starting the logging for sending the emails ---------
+[2025-06-12 16:20:01] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 16:20:01] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 16:20:01] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 16:20:01] Starting multiple email sending process...
+[2025-06-12 16:20:01] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 16:20:01] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 16:20:01] 📊 Summary: Total rows in CSV: 5 | Emails Planned to send: 2 | Successfully Sent: 2 | Skipped: 3
+[2025-06-12 16:20:01] ✅ All emails sent successfully.
+[2025-06-12 16:20:01] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 16:32:21] ---- Starting the logging for sending the emails ---------
+[2025-06-12 16:32:21] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 16:32:21] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 16:32:21] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 16:32:21] Starting multiple email sending process...
+[2025-06-12 16:32:21] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 16:32:21] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 16:32:21] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 16:32:21] 📊 Summary: Total rows in CSV: 6 | Emails Planned to send: 3 | Successfully Sent: 3 | Skipped: 3
+[2025-06-12 16:32:21] ✅ All emails sent successfully.
+[2025-06-12 16:32:21] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:05:15] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:05:15] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:05:15] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:05:15] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:05:15] Starting multiple email sending process...
+[2025-06-12 17:05:15] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:05:15] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 17:05:15] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:05:15] 📊 Summary: Total rows in CSV: 6 | Emails Planned to send: 3 | Successfully Sent: 3 | Skipped: 3
+[2025-06-12 17:05:15] ✅ All emails sent successfully.
+[2025-06-12 17:05:16] 📩 Bounce Report - The following emails were returned as undeliverable:
+[2025-06-12 17:05:16]    ❌ JohnNino.Calderon@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Methila.Rahman@dominos.com, Durga.PraveenDeevi@dominos.com, Udayalakshmi.Meduri@dominos.com, Marie.Youmans@dominos.com, Lokesh.Sharma@dominos.com, Glen-dale.Broughman@dominos.com, Mahmudul.Hasan@dominos.com, Eduardo.Poletto@dominos.com, Leonardo.Oliveira@dominos.com, Dhiarllon.Guedes@dominos.com, Gary.Balkus@dominos.com, shalini.KumariShalini@dominos.com, JuanCarlos.GarciaVilleda@dominos.com, Kenneth.Streger@dominos.com, Cristhian.Gomez@dominos.com, Temirlan.Nurkulov@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, AkankshaK.Kundikar@dominos.com
+[2025-06-12 17:05:16]    ❌ JohnNino.Calderon@dominos.com, Glen-dale.Broughman@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, Eduardo.Poletto@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Gary.Balkus@dominos.com, Amer.Khangharani@dominos.com, Nikhitha.Vadlakonda@dominos.com, JuanCarlos.GarciaVilleda@dominos.com, Marie.Youmans@dominos.com, Mahmudul.Hasan@dominos.com, Rajesh.Bandi@dominos.com, Temirlan.Nurkulov@dominos.com, Udayalakshmi.Meduri@dominos.com, Dhiarllon.Guedes@dominos.com, Kenneth.Streger@dominos.com, Cristhian.Gomez@dominos.com, Aditya.Atchutanna@dominos.com, Leonardo.Oliveira@dominos.com, shalini.KumariShalini@dominos.com
+[2025-06-12 17:05:16]    ❌ Udayalakshmi.Meduri@dominos.com, Glen-dale.Broughman@dominos.com, Marie.Youmans@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, JohnNino.Calderon@dominos.com, shalini.KumariShalini@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, Gary.Balkus@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Mahmudul.Hasan@dominos.com, Temirlan.Nurkulov@dominos.com, Dhiarllon.Guedes@dominos.com, Cristhian.Gomez@dominos.com, Kenneth.Streger@dominos.com, Leonardo.Oliveira@dominos.com
+[2025-06-12 17:05:16]    ❌ Udayalakshmi.Meduri@dominos.com, Glen-dale.Broughman@dominos.com, Marie.Youmans@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, JohnNino.Calderon@dominos.com, shalini.KumariShalini@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, Gary.Balkus@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Mahmudul.Hasan@dominos.com, Temirlan.Nurkulov@dominos.com, Dhiarllon.Guedes@dominos.com, Cristhian.Gomez@dominos.com, Kenneth.Streger@dominos.com, Leonardo.Oliveira@dominos.com
+[2025-06-12 17:05:16] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:14:46] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:14:46] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:14:46] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:14:46] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:14:46] Starting multiple email sending process...
+[2025-06-12 17:14:46] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:14:46] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 17:14:46] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:14:46] 📊 Summary: Total rows in CSV: 6 | Emails Planned to send: 3 | Successfully Sent: 3 | Skipped: 3
+[2025-06-12 17:14:46] ✅ All emails sent successfully.
+[2025-06-12 17:14:46] ⏳ Waiting 1 minutes for potential bounce messages...
+[2025-06-12 17:16:02] ✅ No bounces detected in recent Inbox messages.
+[2025-06-12 17:16:02] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:16:22] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:16:22] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:16:22] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:16:22] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:16:22] Starting multiple email sending process...
+[2025-06-12 17:16:22] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:16:22] ✅ Email sent to Vishnu Priya (vishnupriya@infigroup.com)
+[2025-06-12 17:16:22] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:16:22] 📊 Summary: Total rows in CSV: 6 | Emails Planned to send: 3 | Successfully Sent: 3 | Skipped: 3
+[2025-06-12 17:16:22] ✅ All emails sent successfully.
+[2025-06-12 17:16:22] ⏳ Waiting 1 minutes for potential bounce messages...
+[2025-06-12 17:17:34] ✅ No bounces detected in recent Inbox messages.
+[2025-06-12 17:17:34] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:21:24] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:21:24] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:21:24] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:21:24] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:21:24] Starting multiple email sending process...
+[2025-06-12 17:21:24] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:21:24] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:21:24] 📊 Summary: Total rows in CSV: 5 | Emails Planned to send: 2 | Successfully Sent: 2 | Skipped: 3
+[2025-06-12 17:21:24] ✅ All emails sent successfully.
+[2025-06-12 17:21:24] ⏳ Waiting 1 minutes for potential bounce messages...
+[2025-06-12 17:22:31] ✅ No bounces detected in recent Inbox messages.
+[2025-06-12 17:22:31] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:24:02] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:24:02] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:24:02] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:24:02] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:24:02] Starting multiple email sending process...
+[2025-06-12 17:24:02] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:24:02] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:24:02] 📊 Summary: Total rows in CSV: 5 | Emails Planned to send: 2 | Successfully Sent: 2 | Skipped: 3
+[2025-06-12 17:24:02] ✅ All emails sent successfully.
+[2025-06-12 17:24:02] ⏳ Waiting 1 minutes for potential bounce messages...
+[2025-06-12 17:25:03] 📩 Bounce Report - The following emails were returned as undeliverable:
+[2025-06-12 17:25:03]    ❌ JohnNino.Calderon@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Methila.Rahman@dominos.com, Durga.PraveenDeevi@dominos.com, Udayalakshmi.Meduri@dominos.com, Marie.Youmans@dominos.com, Lokesh.Sharma@dominos.com, Glen-dale.Broughman@dominos.com, Mahmudul.Hasan@dominos.com, Eduardo.Poletto@dominos.com, Leonardo.Oliveira@dominos.com, Dhiarllon.Guedes@dominos.com, Gary.Balkus@dominos.com, shalini.KumariShalini@dominos.com, JuanCarlos.GarciaVilleda@dominos.com, Kenneth.Streger@dominos.com, Cristhian.Gomez@dominos.com, Temirlan.Nurkulov@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, AkankshaK.Kundikar@dominos.com
+[2025-06-12 17:25:03]    ❌ JohnNino.Calderon@dominos.com, Glen-dale.Broughman@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, Eduardo.Poletto@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Gary.Balkus@dominos.com, Amer.Khangharani@dominos.com, Nikhitha.Vadlakonda@dominos.com, JuanCarlos.GarciaVilleda@dominos.com, Marie.Youmans@dominos.com, Mahmudul.Hasan@dominos.com, Rajesh.Bandi@dominos.com, Temirlan.Nurkulov@dominos.com, Udayalakshmi.Meduri@dominos.com, Dhiarllon.Guedes@dominos.com, Kenneth.Streger@dominos.com, Cristhian.Gomez@dominos.com, Aditya.Atchutanna@dominos.com, Leonardo.Oliveira@dominos.com, shalini.KumariShalini@dominos.com
+[2025-06-12 17:25:03]    ❌ Udayalakshmi.Meduri@dominos.com, Glen-dale.Broughman@dominos.com, Marie.Youmans@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, JohnNino.Calderon@dominos.com, shalini.KumariShalini@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, Gary.Balkus@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Mahmudul.Hasan@dominos.com, Temirlan.Nurkulov@dominos.com, Dhiarllon.Guedes@dominos.com, Cristhian.Gomez@dominos.com, Kenneth.Streger@dominos.com, Leonardo.Oliveira@dominos.com
+[2025-06-12 17:25:03]    ❌ Udayalakshmi.Meduri@dominos.com, Glen-dale.Broughman@dominos.com, Marie.Youmans@dominos.com, Durga.PraveenDeevi@dominos.com, Methila.Rahman@dominos.com, JohnNino.Calderon@dominos.com, shalini.KumariShalini@dominos.com, AkankshaK.Kundikar@dominos.com, Lokesh.Sharma@dominos.com, Nikhitha.Vadlakonda@dominos.com, Amer.Khangharani@dominos.com, Gary.Balkus@dominos.com, Rajesh.Bandi@dominos.com, Aditya.Atchutanna@dominos.com, Mahmudul.Hasan@dominos.com, Temirlan.Nurkulov@dominos.com, Dhiarllon.Guedes@dominos.com, Cristhian.Gomez@dominos.com, Kenneth.Streger@dominos.com, Leonardo.Oliveira@dominos.com
+[2025-06-12 17:25:03] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-12 17:30:26] ---- Starting the logging for sending the emails ---------
+[2025-06-12 17:30:26] ⚠️ Skipped row due to missing field(s): {'first_name': 'Kamlesh', 'last_name': 'Ranka', 'email': None}
+[2025-06-12 17:30:26] ⚠️ Skipped row due to missing field(s): {'first_name': 'Ranka', 'last_name': 'ranka@infi.com', 'email': None}
+[2025-06-12 17:30:26] ⚠️ Skipped row due to missing field(s): {'first_name': 'ranka@infigrou.com', 'last_name': None, 'email': None}
+[2025-06-12 17:30:26] Starting multiple email sending process...
+[2025-06-12 17:30:26] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-12 17:30:26] ✅ Email sent to Kamlesh Ranka (ranka@example.com)
+[2025-06-12 17:30:26] 📊 Summary: Total rows in CSV: 5 | Emails Planned to send: 2 | Successfully Sent: 2 | Skipped: 3
+[2025-06-12 17:30:26] ✅ All emails sent successfully.
+[2025-06-12 17:30:26] --------------------------------- DONE -----------------------------------
