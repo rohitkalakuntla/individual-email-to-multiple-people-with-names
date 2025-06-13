@@ -5,15 +5,14 @@ Sending Individual emails to multiple people with addressing with their names.
 
 Before Executing, need to make sure and update all these 
 
-**Python Script:**
+**Need_to_update_details.json: This file is to add the subject, cc email, file attachment**
   subject
   cc_email
-  SentOnBehalfOfName (would be the person sending email address)
-  signature of the person sending
   attachment file name  ( If they are multiple files use a ' , ' and mention multiple file names )
 
 **email_body.html**
   Need to update the body as per the requirement.
+  signature of the person sending
 
   **recipients.csv**
     Need to add all the list of members we would need to send email. 
