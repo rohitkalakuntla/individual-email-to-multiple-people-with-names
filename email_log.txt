@@ -140,3 +140,39 @@
 [2025-06-12 17:30:26] 📊 Summary: Total rows in CSV: 5 | Emails Planned to send: 2 | Successfully Sent: 2 | Skipped: 3
 [2025-06-12 17:30:26] ✅ All emails sent successfully.
 [2025-06-12 17:30:26] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-13 14:27:59] ---- Starting the logging for sending the emails ---------
+[2025-06-13 14:27:59] Starting multiple email sending process...
+[2025-06-13 14:27:59] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-13 14:27:59] 📊 Summary: Total rows in CSV: 1 | Emails Planned to send: 1 | Successfully Sent: 1 | Skipped: 0
+[2025-06-13 14:27:59] ✅ All emails sent successfully.
+[2025-06-13 14:27:59] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-13 14:32:19] ---- Starting the logging for sending the emails ---------
+[2025-06-13 14:32:19] Starting multiple email sending process...
+[2025-06-13 14:32:19] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-13 14:32:19] 📊 Summary: Total rows in CSV: 1 | Emails Planned to send: 1 | Successfully Sent: 1 | Skipped: 0
+[2025-06-13 14:32:19] ✅ All emails sent successfully.
+[2025-06-13 14:32:19] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-13 14:32:40] ---- Starting the logging for sending the emails ---------
+[2025-06-13 14:32:40] Starting multiple email sending process...
+[2025-06-13 14:32:40] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-13 14:32:40] 📊 Summary: Total rows in CSV: 1 | Emails Planned to send: 1 | Successfully Sent: 1 | Skipped: 0
+[2025-06-13 14:32:40] ✅ All emails sent successfully.
+[2025-06-13 14:32:40] --------------------------------- DONE -----------------------------------
+
+
+[2025-06-13 14:43:02] ---- Starting the logging for sending the emails ---------
+[2025-06-13 14:43:02] Error reading config file: [Errno 2] No such file or directory: 'C:\\Users\\kalakur\\OneDrive - dpz\\Desktop\\Dominos\\Personal\\Kamlesh - Infinity Tech Related Work\\Send Multiple Emails Automation\\email_config.json'
+
+
+[2025-06-13 14:44:27] ---- Starting the logging for sending the emails ---------
+[2025-06-13 14:44:27] Starting multiple email sending process...
+[2025-06-13 14:44:27] ✅ Email sent to Rohit Kalakuntla (Rohit.kalakuntla@dominos.com)
+[2025-06-13 14:44:27] 📊 Summary: Total rows in CSV: 1 | Emails Planned to send: 1 | Successfully Sent: 1 | Skipped: 0
+[2025-06-13 14:44:27] ✅ All emails sent successfully.
+[2025-06-13 14:44:27] --------------------------------- DONE -----------------------------------

@@ -1,0 +1,7 @@
+{
+  "subject": "Test - Same Email to different people addressing with their name and attachment - Automated",
+  "cc_email": "ranka@infigroup.com",
+  "attachments": [
+    "test-attachment.txt"
+  ]
+}
