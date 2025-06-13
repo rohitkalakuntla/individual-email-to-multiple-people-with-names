@@ -2,21 +2,14 @@ import os
 import csv
 import win32com.client
 from datetime import datetime
-
-# Configuration
-subject = "Test Email Automated"
-cc_email = "Rohit.kalakuntla@dominos.com"  # Replace with real CC
-
-attachments = [
-    "test-attachment.txt"
-    
-]
+import json
 
 # Set paths
 base_dir = os.getcwd()
 csv_path = os.path.join(base_dir, "recipients.csv")
 body_path = os.path.join(base_dir, "email_body.html")
 log_path = os.path.join(base_dir, "email_log.txt")  # Single persistent log file
+
 
 # Logging function
 def log_message(message):
@@ -25,13 +18,29 @@ def log_message(message):
         log_file.write(f"[{timestamp}] {message}\n")
     print(message)
 
-# Log section break
+# Log section starting point
 with open(log_path, "a", encoding="utf-8") as log_file:
     log_file.write("\n\n")  # Leave two blank lines before this run
     
 log_message(f"---- Starting the logging for sending the emails ---------")
 
-# Read body content
+
+# Load json config
+config_path = os.path.join(base_dir, "Need_to_update_details.json")
+try:
+    with open(config_path, "r", encoding="utf-8") as f:
+        config = json.load(f)
+except Exception as e:
+    log_message(f"Error reading config file: {e}")
+    exit()
+
+# Access json config values
+subject = config.get("subject", "Default Subject")
+cc_email = config.get("cc_email", "")
+attachments = config.get("attachments", [])
+
+
+# Read html body content
 try:
     with open(body_path, "r", encoding="utf-8") as f:
         body_template = f.read()
@@ -89,9 +98,7 @@ try:
         try:
             personalized_body = f"""
             Hi {r['first_name']} {r['last_name']},<br><br>
-            {body_template}<br><br>
-            Thanks & Regards,<br>
-            Rohit Kalakuntla.
+            {body_template}
             """
     
             mail = outlook.CreateItem(0)
@@ -99,7 +106,6 @@ try:
             mail.CC = cc_email
             mail.Subject = subject
             mail.HTMLBody = personalized_body
-            mail.SentOnBehalfOfName = "Rohit.kalakuntla@dominos.com"
     
             for filename in attachments:
                 full_path = os.path.join(base_dir, filename)
